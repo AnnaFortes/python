@@ -1,11 +1,11 @@
-import random
-qnt = int(input('Quantos alunos serão sorteados: '))
+from random import shuffle
+qnt = int(input('Quantos alunos serão cadastrados: '))
 alunos = []
 for i in range(qnt):
     aluno = input('Digite o nome do aluno: ')
     alunos.append(aluno)
 
-random.shuffle(alunos) 
+shuffle(alunos) 
 
 embaralhado = ', '.join(alunos)
-print(f'A ordem sorteada foi {embaralhado}')
+print(f'A ordem de apresentação será {embaralhado}')
