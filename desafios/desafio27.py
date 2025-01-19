@@ -1,8 +1,14 @@
-#escreva um programa que faça o computador pensar em um numero inteiro entre 0 e 5 e peça para o usuario tentar descobrir qual foi o numero escolhido, o programa devera escrever na tela se o usuario venceu ou nao
 from random import randint
-num = randint(1, 5)
-escolha = int(input('Escolha um número entre 1 e 5: '))
-if num == escolha:
-    print('Parabéns, você acertou! ')
+from time import sleep
+#estudar sobre a biblioteca time
+num = randint(0, 5)
+print('-=-' * 20)
+print('\nVou pensar em um número entre 0 e 5, tente adivinhar... ')
+print('-=-' * 20)
+jogador = int(input('Em que número eu pensei? '))
+print('PROCESSANDO...')
+sleep(2) #tempo de espera de 2 segundos
+if num == jogador:
+    print('PARABÉNS, você conseguiu me vencer! ')
 else:
-    print('Tente outra vez!')
+    print(f'GANHEI! Eu pensei no número {num} e não no {jogador}!')
