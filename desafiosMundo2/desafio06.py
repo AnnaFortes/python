@@ -1,0 +1,1 @@
+#a cofederação nacional de natação precisa de um programa que leia o ano de nascimento de um atleta e mostre sua categoria, de acordo com a idade: ate 9 anos: MIRIM, ate 14 anos: INFANTIL, ate 19 anos: JUNIOR, ate 20 anos SENIOR, acima: MASTER

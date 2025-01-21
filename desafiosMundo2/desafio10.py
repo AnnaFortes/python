@@ -1,0 +1,1 @@
+#crie um programa que faça o computador jogar jokenpô(pedra/papel/tesoura) com vc, acho que vou usar emoji

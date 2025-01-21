@@ -1,0 +1,1 @@
+#ler 2 notas de um aluno e calcule sua média, mostrando uma mensagem no final, de acordo com a média atingida. média abaixo de 5.0: REPROVADO, media entre 5.0 e 6.0 RECUPERAÇÃO media 7.0 ou superior APROVADO

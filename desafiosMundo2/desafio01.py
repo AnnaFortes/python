@@ -1,0 +1,2 @@
+#escreva um programa oara aprovar o emprestimo bancario para a compra de uma casa. O programa vai perguntar o valor da casa, o salário do comprador e em quantos anos ele vai pagar.(não considerar juros)
+#Calcule o valor da prestação mensal, sabendo que ela não pde exceder 30% do salário ou então o emprestimo será negado

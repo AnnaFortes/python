@@ -1,0 +1,1 @@
+#complementando o exercicio para ver se as retas podem formar um triangulo, fale que tipo de triangulo sera formado. EQUILATERO: tds os lados são iguais. ISÓCELES: dois lados são iguais. ESCALENO: tds os lados são diferentes

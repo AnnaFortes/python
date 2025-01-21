@@ -1,0 +1,1 @@
+#ler o ano de nascimento e informe com sua idade: se ele ainda vai se alistar ao serviço militar, se é a hora de se alistar ou se ja passou do tempo do alistamento. Seu programa tb devera mostrar o tempo que falta ou que passou do prazo (18 anos)
