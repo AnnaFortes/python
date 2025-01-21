@@ -5,4 +5,4 @@ altura = float(input('Qual é a altura da parede? '))
 area = largura * altura  
 tinta = area / 2
 print(f'Sua parede tem a dimensão de {largura :.1f} x {altura :.1f} e sua área é de {area :.1f}m²')
-print(f'A quantidade de tinta necessária para pintar a parede é de {tinta} litros')
+print(f'A quantidade de tinta necessária para pintar a parede é de \033[1;36m {tinta}\033[m  litros')

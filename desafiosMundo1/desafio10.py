@@ -3,4 +3,4 @@ preco = float(input('Valor do produto: '))
 desc = int(input('Quantidade de desconto: '))
 desconto = (desc / 100) * preco
 novoValor = preco - desconto
-print(f'O valor com {desc}% de desconto fica {novoValor :.2f}')
+print(f'O valor com {desc}% de desconto fica \033[33m {novoValor :.2f}\033[m ')
