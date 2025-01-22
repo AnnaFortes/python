@@ -1,1 +1,11 @@
-#ler o ano de nascimento e informe com sua idade: se ele ainda vai se alistar ao serviço militar, se é a hora de se alistar ou se ja passou do tempo do alistamento. Seu programa tb devera mostrar o tempo que falta ou que passou do prazo (18 anos)
+from datetime import date
+nasc = int(input('Digite seu ano de nascimento: '))
+ano = date.today().year
+idade = ano - nasc
+if idade < 18:
+    falta = 18 - idade
+    print(f'O alistamento é somente com 18 anos, ainda faltam {falta} anos.')
+elif idade == 18:
+    print('Você está em idade de se alistar!')
+elif idade > 18:
+    print('Você já passou da idade para se alistar!')
