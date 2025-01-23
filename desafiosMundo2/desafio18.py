@@ -1,0 +1,1 @@
+#Crie um programa que leia uma frase qualquer e diga se ela é um palíndromo, desconsiderando espaços (palindromo: frase que invertida é a mesma coisa q na pisição normal, ex: apos a sopa, de trás pra frente.. apos a sopa)
