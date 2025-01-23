@@ -3,9 +3,8 @@ nasc = int(input('Digite seu ano de nascimento: '))
 ano = date.today().year
 idade = ano - nasc
 if idade < 18:
-    falta = 18 - idade
-    print(f'O alistamento é somente com 18 anos, ainda faltam {falta} anos.')
-elif idade == 18:
-    print('Você está em idade de se alistar!')
+    print(f'O alistamento é somente com 18 anos, ainda faltam {18 - idade} anos.\nSeu alistamento será em {nasc + 18}')
 elif idade > 18:
-    print('Você já passou da idade para se alistar!')
+    print(f'Você deveria ter se alistado há {idade - 18} anos! \nSeu alistamento foi em {nasc + 18}')
+elif idade == 18:
+    print('Você tem que se alistar IMEDIATAMENTE!')

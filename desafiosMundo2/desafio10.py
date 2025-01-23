@@ -25,3 +25,4 @@ elif (escolha == 1 and escolha2 == 3) or (escolha == 2 and escolha2 == 1) or (es
     print('Jogador 1 venceu!')
 else: 
     print('Jogagor 2 venceu!')
+    

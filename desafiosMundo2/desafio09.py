@@ -1,9 +1,9 @@
-pag = float(input('Dgite o valor do produto: '))
-print('Escolha a opção de pagamento: ')
+pag = float(input('Preço das compras: '))
+print('OPÇÃO DE PAGAMENTO: ')
 print('1 - À vista (dinheiro/pix - 10% de desconto)')
 print('2 - À vista (cartão) - 5% de desconto')
-print('2 - Em até 2x no cartão (sem juros)')
-print('4 - Em 3x ou mais no cartão (20% de juros)')
+print('3 - Em 3x ou mais no cartão (20% de juros)')
+print('4 - Em até 2x no cartão (sem juros)')
 coman = int(input('Digite a opção de pagamento: '))
 
 if coman == 1:
