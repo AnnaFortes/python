@@ -1,1 +1,6 @@
-# Desenvolva um programa que leia o primeiro termo e a razão de uma PA(progressão aritmética). No final, mostre os 10 primeiros termos dessa progressão... tradução: contagem de um número até outro, contando de tanto até tanto
+termo = int(input('Digite o primeiro termo: '))
+razao = int(input('Digite a razão: '))
+for n in range(1, 11):
+    pa = termo + (n - 1) * razao
+    print(f'Termo{n}: {pa}')
+

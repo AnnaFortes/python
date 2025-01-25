@@ -1,1 +1,10 @@
-#Faça um programa que leia o peso de 5 pessoas. No final, mostre qual foi o maior e o menor peso lidos
+menor = 0
+maior = 0
+for c in range(6):
+    peso = float(input('Digite o peso (KG): '))
+    if peso > maior:
+        maior = peso
+    else:
+        menor = peso
+print(f'O maior peso é {maior :.1f}')
+print(f'O menor peso é {menor :.1f}')

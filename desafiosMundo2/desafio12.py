@@ -1,1 +1,4 @@
-#Crie um programa que mostre na tela todos os números pares que estão entre 1 e 50
+#poderia tb fazer for c in range(0, 51, 2):
+for c in range(1, 51):
+    if c % 2 == 0:
+        print('PAR:', c)
