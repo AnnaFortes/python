@@ -2,7 +2,7 @@ from datetime import date
 somaMaior = 0
 somaMenor = 0
 for c in range(1, 8):
-    nasc = int(input('Digite seu ano de nascimento: '))
+    nasc = int(input('Digite o ano de nascimento: '))
     ano = date.today().year
     idade = ano - nasc
     if idade >= 21:
