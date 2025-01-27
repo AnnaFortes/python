@@ -1,1 +1,9 @@
-#Crie um programa que leia uma frase qualquer e diga se ela é um palíndromo, desconsiderando espaços (palindromo: frase que invertida é a mesma coisa q na pisição normal, ex: apos a sopa, de trás pra frente.. apos a sopa)
+frase = str(input('Digite uma frase: ')).strip().lower()
+fraseN = frase.split()
+fraseJ = ''.join(fraseN)
+fraseI =  fraseJ[::-1]
+
+if fraseJ == fraseI:
+    print('\nA frase é um palíndromo')
+else:
+    print('\nA frase não é um palíndromo')

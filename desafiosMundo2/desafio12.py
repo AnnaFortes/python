@@ -1,4 +1,3 @@
-#poderia tb fazer for c in range(0, 51, 2):
-for c in range(1, 51):
-    if c % 2 == 0:
-        print('PAR:', c)
+#poderia tb fazer if c % 2 == 0:
+for c in range(2, 51, 2):
+    print('PAR:', c)

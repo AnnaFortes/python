@@ -1,6 +1,8 @@
 soma = 0
-for c in range(1, 501):
-    if c % 2 == 1 and c % 3 == 0:
+cont = 0
+for c in range(1, 501, 2):
+    if c % 3 == 0:
+        cont += 1 
         soma += c
-print(f'O somatório de todos os valores foi {soma}') 
+print(f'A soma de todos os {cont} valores foi de {soma}') 
         
