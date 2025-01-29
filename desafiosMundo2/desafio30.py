@@ -1,0 +1,1 @@
+#ler varios numeros inteiros, no final mostre a media entre tds os valores e qual foi o maior e o menor valores lidos. O programa deve perguntar ao usuario se ele quer ou não continuar a digitar valores

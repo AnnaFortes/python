@@ -1,0 +1,1 @@
+#ler varios numeros inteiros, o programa so vai parar quando o usuario digitar o valor 999, qual é a condição de parada. No final, mostre quantos números foram digitados e qual foi a soma entre eles(desconsiderando o flag(flag é o número que fez o programa parar))
