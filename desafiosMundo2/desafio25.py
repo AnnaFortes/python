@@ -1,7 +1,18 @@
-#ler um numero e ler seu fatorial
-c = 1
+fat = 1
 num = int(input('Digite um número: '))
-while num > c:
-    c = num -1
-    num *= c
-print(num)
+
+print(num,'! = ', num, end="")
+
+while num > 1:
+    fat *= num 
+    num -= 1
+    print(f' * {num}', end="")
+    
+print(f' = {fat}')
+
+
+
+
+
+    
+
