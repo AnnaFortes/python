@@ -6,7 +6,7 @@ print(num,'! = ', num, end="")
 while num > 1:
     fat *= num 
     num -= 1
-    print(f' * {num}', end="")
+    print(f' x {num}', end="")
     
 print(f' = {fat}')
 

@@ -2,13 +2,15 @@ cont = 0
 soma = 0
 num = 0
 
-while num != 999:
-    num = int(input('Digite um valor [999 para sair]: '))   
-    
-    cont += 1
-    soma += num
+num = int(input('Digite um valor [999 para sair]: '))
 
-print(f'Ao todo tiveram {cont} números digitados e a soma entre eles é de {soma - 999}')
+while num != 999:
+    soma += num
+    cont += 1
+
+    num = int(input('Digite um valor [999 para sair]: '))       
+
+print(f'Ao todo tiveram {cont} números digitados e a soma entre eles é de {soma}')
 
 if num == 999:
         print('ACABOU!')

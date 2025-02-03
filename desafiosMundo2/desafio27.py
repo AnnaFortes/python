@@ -19,9 +19,9 @@ while True:
 
     if escolha == 1:
         n = int(input('Quantos termos você gostaria de adicionar? '))
-        if n == 0:
-            print('FIM')
+    if n == 0:
+            print('FIM!')
             break
     elif escolha == 2:
-        print('FIM')
-        
+        print('FIM!')
+        break

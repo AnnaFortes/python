@@ -15,11 +15,12 @@ while continuar in 'Ss':
     if menor is None or num < menor:
         menor = num
 
-    continuar = str(input('Gostaria de continuar? [S/N]: ')).strip().upper()
+    continuar = str(input('Gostaria de continuar? [S/N]: ')).strip().upper()[0]
 
 media = soma / cont
-    
-print(f'A média entre todos os números é de {media}')
+
+print(f'Você digitou {cont} números.')   
+print(f'A média entre eles foi {media :.1f}')
 print(f'O maior número foi {maior}')
 print(f'O menor número foi {menor}')
     
