@@ -1,0 +1,1 @@
+# ler o nome e preço de varios produtos, o programa devera perguntar se o usuario vai continuar. No final, mostre: a) qual é o total do gasto na compra, b) quantos produtos custam + 1000, c) qual é o nome do produto + barato

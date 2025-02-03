@@ -1,0 +1,1 @@
+# ler a idade e sexo de varias pessoas, a cada pessoa cadastrada o programa devera perguntar se o usuario quer ou nao continuar. No final mostre: a) quantas pessoas tem + 18, b) quantos homens foram cadastrados, c) quantas mulheres tem menos de 20 anos, se digitar n quer continuar errado, ele pergunta novamente a msm coisa pro sexo, senão colocar m ou f continuara perguntando
