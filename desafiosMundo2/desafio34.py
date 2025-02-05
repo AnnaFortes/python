@@ -9,7 +9,7 @@ while True:
     while sexo not in ('M', 'F'):
         sexo = str(input('Sexo [M/F]: ')).upper().strip()[0]
 
-    pros = ''
+    pros = '' 
 
     while pros not in ('S', 'N'):
         pros = str(input('Gostaria de continuar? [S/N] ')).upper().strip()[0]
