@@ -1,0 +1,1 @@
+# gerar 5 números aleatorios e colocar em uma tupla. Depois disso, mostre a listagem de números gerados e tbm indique o menor e maior valor que estão na TUPLA

@@ -1,0 +1,1 @@
+#crie uma programa que tenha uma TUPLA unica com nomes de produtos e seus respectivos preços, na sequencia. No final, mosstre uma listagem de preços, organizando os dados em forma tabular

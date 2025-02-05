@@ -1,0 +1,1 @@
+#crie um programa que tenha uma TUPLA totalmente preenchidacom uma contagem por extenso, de 0 até 20. Seu programa deverá ler um número (de 0 a 20) e mostralo por extenso. 
