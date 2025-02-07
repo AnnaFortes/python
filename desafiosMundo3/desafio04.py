@@ -1,16 +1,28 @@
-# desenvolva um programa que leia 4 valores pelo teclado e guarde-os em uma tupla. No fina, mostre: a) quantas vezes apareceu o valor 9. b) em que posição foi digitado o primeiro valor 3. c) quais foram os números pares. Se buscar um valor que não existe, tem que dar ERRO
-contPar = 0
-num = int(input('Digite um número: '))
-num1 = int(input('Digite outro número: '))
-num2 = int(input('Digite mais um número: '))
-num3 = int(input('Digite o útimo número: '))
+numTupla = (
+    int(input('Digite um número: ')),
+    int(input('Digite outro número: ')),
+    int(input('Digite mais um número: ')),
+    int(input('Digite o útimo número: '))
+    )
 
-numTupla = (num, num1, num2, num3)
+print(f'Você digitou os valores {numTupla}')
 
-if 9 in numTupla:
-    cont = numTupla.count(9)
-    print(f'O valor 9 apareceu {cont} vezes')
+print(f'O valor 9 apareceu {numTupla.count(9)} vezes')
+
 if 3 in numTupla:
     print(f'O número 3 apareceu na {numTupla.index(3) + 1}° posição')
+else:
+    print('O valor 3 não foi digitado em nenhuma posição')
 
-print(numTupla)
+print(f'Os valores pares digitados foram: ', end='')
+temPar = False
+
+for c in numTupla:
+    if c % 2 == 0:
+        print(c)
+        temPar = True 
+        
+if not temPar:
+    print('Nenhum')
+else:
+    print()
