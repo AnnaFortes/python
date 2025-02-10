@@ -1,0 +1,1 @@
+# ler varios valores e colocar numa lista, depois, crie duas listas extras que vão conter apenas os valores pares e os valores impares digitados, respectivamente. Ao final, mostre o conteudo das três listas geradas

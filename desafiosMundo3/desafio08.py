@@ -1,0 +1,1 @@
+#crie um programa onde o usuario possa digitar varios valores numericos e cadastre-os em uma lista. Caso o número já exista lá dentro, ele não será adicionado. No final, serao exibidos todos os valores unicos digitados em ordem crescente

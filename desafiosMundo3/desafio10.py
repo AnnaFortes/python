@@ -1,0 +1,1 @@
+#ler varios numeros e coloca-los numa lista, depois disso, mostre: a) quantos numeros foram digitados, b) a lista de valores ordenada de forma decrescente, c) se o valor 5 foi digitado e está ou não na lista
