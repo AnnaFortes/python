@@ -3,7 +3,7 @@ valores = []
 for c in range(5): 
     num = int(input('Digite um valor: '))
 
-    if not valores or num > valores[-1]: #Se a lista estiver vazia ou se num for maior que o último valo
+    if not valores or num > valores[-1]: 
         valores.append(num) 
         print('Adicionado no final da lista...')
     else:
