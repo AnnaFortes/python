@@ -1,0 +1,1 @@
+#Crie um programa que crie uma matriz de dimenssão 3x3 e preencha com valores lidos pelo teclado. No final mostrea matriz na tela, com a formatação correta
