@@ -1,1 +1,14 @@
-#Crie um programa que crie uma matriz de dimenssão 3x3 e preencha com valores lidos pelo teclado. No final mostrea matriz na tela, com a formatação correta
+matriz = [] 
+
+for p in range(0,3):
+    linha = [] 
+    for c in range(0, 3): 
+        valor = int(input(f'Digite um valor para [{p}][{c}]: '))
+        linha.append(valor) 
+    matriz.append(linha)
+
+print('=-' * 25)
+for linha in matriz: 
+    for valor in linha: 
+        print(f'[{valor}]', end=' ') 
+    print() 

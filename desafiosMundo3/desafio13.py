@@ -1,7 +1,7 @@
 pessoas = [] 
 maiorNome = []
 menorNome = []
-maior = menor = 0
+maior = menor = None
 
 while True:
     nome = str(input('Nome: '))
@@ -9,13 +9,13 @@ while True:
 
     pessoas.append([nome, peso])
 
-    if peso > maior:
+    if maior is None or peso > maior:
         maior = peso
         maiorNome = [nome]
     elif peso == maior:
         maiorNome.append(nome)
 
-    if peso < menor:
+    if menor is None or peso < menor:
         menor = peso
         menorNome = [nome]
     elif peso == menor:
