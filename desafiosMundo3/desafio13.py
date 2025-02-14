@@ -27,7 +27,6 @@ while True:
         print('=-' * 30)
         break
 
-print(f'Ao total temos {len(pessoas)} pessoas')
-
-print(f'O maior peso foi de {', '.join(maiorNome)}. Peso de {maior}')
-print(f'O menor peso foi de {', '.join(menorNome)}. Peso de {menor}')
+print(f'Ao todo temos {len(pessoas)} pessoas cadastradas.')
+print(f'O maior peso foi de {', '.join(maiorNome)}. Peso de {maior}Kg.')
+print(f'O menor peso foi de {', '.join(menorNome)}. Peso de {menor}Kg.')
