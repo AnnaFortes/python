@@ -1,0 +1,1 @@
+#ler nome, sexo e idade de varias pessoas, guardando os dados de cada pessoa em um dicionario e tds os dicionarios em uma lista. No final, mostre: a)qnts pessoas foram cadastradas, b) a media de idade do grupo, c) uma lista com tds as mulheres d) uma lista com tds as pessoas com idade acima da média
