@@ -1,1 +1,1 @@
-#aprimore o desafio do jogador de futebol para que ele funcione com carios jogadores, incluindo um sistema de visualização de detalhes do aproveitamento de cada jogador
+#aprimore o desafio do jogador de futebol para que ele funcione com varios jogadores, incluindo um sistema de visualização de detalhes do aproveitamento de cada jogador

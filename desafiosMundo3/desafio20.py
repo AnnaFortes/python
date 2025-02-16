@@ -9,7 +9,7 @@ for s in range (4):
     jogador = f'Jogador {s+1}'
     jogadores.append({jogador : sorteio})
     
-    print(f'   O jogador {jogador} tirou {sorteio} ')
+    print(f'\tO jogador {jogador} tirou {sorteio} ')
 print()
 print(jogadores)
 print()
