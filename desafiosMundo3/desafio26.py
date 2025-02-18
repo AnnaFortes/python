@@ -1,1 +1,9 @@
-#faça um programa que tenha a função escreva(), que receba um texto qualquer como parametro e mostre uma mensagem com tamanho adaptavel. ex: escreva('Olá mundo!'), saida Olá mundo! com tracejado acima e abaixo (tracejados com tamanho adaptavel ao texto escrito)
+def escreva(txt):
+    linha = '-' * len(txt) 
+    print(linha) 
+    print(txt) 
+    print(linha)
+
+escreva('CURSO EM VÍDEO DE PYTHON')  
+escreva('CURSO EM VÍDEO') 
+escreva('PYTHON')
