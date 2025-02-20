@@ -1,14 +1,18 @@
+from time import sleep
+
 def maior(*num):
-    print('Analizando valores passados...')
+    print('Analisando valores passados...')
 
     if num:
         maiorNum = max(num)
 
         for valor in num:
-            print(f'{valor}', end=' ')
+            print(f'{valor}', end=' ', flush=True)
+            sleep(0.5)
 
         print(f'= Foram informados {len(num)} valores ao todo.')
-        print(f'O maior valor de informado foi {maiorNum}')
+        print(f'O maior valor de informado foi {maiorNum}', flush=True)
+        sleep(0.7)
         
     else:
         print('Foram informado 0 valores ao todo.')

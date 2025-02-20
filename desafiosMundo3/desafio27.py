@@ -2,7 +2,7 @@ from time import sleep
 
 def contador(incio, fim, passo):
     for c in range(incio, fim, passo):
-        print(f'{c}', end=' ')
+        print(f'{c}', end=' ', flush=True) 
         sleep(0.2)
     print('FIM!')
 
@@ -19,6 +19,7 @@ contador(10, 0, -2)
 linha()
 
 print('Agora é sua vez de personalizar a contagem!')
+
 inicio = int(input('Início: '))
 fim = int(input('Fim: '))
 passo = int(input('Passo: '))
@@ -36,7 +37,7 @@ elif inicio < fim and passo < 0:
     passo = -passo
 
 for p in range(inicio, fim + (1 if passo > 0 else -1), passo):
-    print(f'{p}', end=' ')
+    print(f'{p}', end=' ', flush=True)
     sleep(0.2)
 print('FIM!')
 print()
