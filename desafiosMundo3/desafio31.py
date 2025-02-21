@@ -1,0 +1,1 @@
+#crie um programa que tenha uma função chamada fatorial() que receba dois parametros: o primeiro que indique o numero a calcular e o outro chamado show, que será um valor logico(opcional) indicando se será mostrado ou não na tela o processo de cálculo do fatorial
