@@ -1,1 +1,21 @@
-#crie um programa que tenha uma função chamada fatorial() que receba dois parametros: o primeiro que indique o numero a calcular e o outro chamado show, que será um valor logico(opcional) indicando se será mostrado ou não na tela o processo de cálculo do fatorial
+def fat(num=1, show=False):
+    f = 1
+    if show:
+        print(f'Calculando o fatorial de {num}!', end=' = ')
+
+    for c in range(num, 0, -1):
+        f *= c
+        if show:
+            print(c, end=' ')
+            if c > 1:
+                print('x', end=' ')
+            else:
+                print('=', end=' ')
+    
+    if show:
+        print(f)
+    return f
+
+    
+resultado = fat(5, show=False)
+print(resultado)
