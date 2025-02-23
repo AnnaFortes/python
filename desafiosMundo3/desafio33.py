@@ -1,1 +1,8 @@
-#crie um programa que tenha uma função leiaInt(), que vai funcionar de forma semelhante a funçãp input() do python, só que fazendo a validação para aceitar apenas um valor numerico. EX: n = leiaInt('Digite um numero')
+def leiaInt(msg):
+    return int(input(msg))
+
+
+print('-' * 30)
+n = leiaInt('Digite um número: ')
+print(f'Você acabou de digitar o número {n}')
+print()

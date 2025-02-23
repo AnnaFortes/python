@@ -16,6 +16,5 @@ def fat(num=1, show=False):
         print(f)
     return f
 
-    
 resultado = fat(5, show=False)
 print(resultado)

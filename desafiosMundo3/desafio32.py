@@ -1,1 +1,28 @@
-#um programa que tenha uma função chamada ficha(), que receba dois parametros opcionais: o nome de um jogador e quantos gols ele marcou. O programa deverá ser capaz de mostrar a ficha do jogador, mesmo que algum dado nao tenha sido informado corretamente
+jogador = {}
+
+def ficha(nome=False, gol=False):
+
+    print('-' * 35)
+    
+    nome = str(input('Nome do jogador: '))
+
+    gols = input('Quantidade de gols: ')
+
+    if not nome:
+        nome = '<desconhecido>'
+
+    if not gols:
+        gols = 0
+    else:
+        gols = int(gols)
+
+    jogador['nome'] = nome
+    jogador['gols'] = gols
+
+    return jogador
+
+
+resul = ficha(nome=True, gols=True)
+
+print(f'O jogador {jogador["nome"]} fez {jogador["gols"]} gol(s) no campeonato.')
+print()
