@@ -1,28 +1,30 @@
-jogador = {}
+def ficha(nome='<desconhecido>', gol=0):
+    """ 
+    Exibe a ficha de um jogador, incluindo nome e quantidade de gols.
 
-def ficha(nome=False, gol=False):
-
-    print('-' * 35)
+    :param nome: Nome do jogador. Se não informado, será <desconhecido>.
+    :param gol: Quantidade de gols. Se não informado, será 0.
+    :return: Dicionário com os dados do jogador.
+    """
     
-    nome = str(input('Nome do jogador: '))
+    print('-' * 35)
 
-    gols = input('Quantidade de gols: ')
+    # Se não for passado um nome, mantém o padrão '<desconhecido>'
+    nomeInput = input('Nome do jogador: ').strip()
+    if nomeInput:  # Se o usuário digitar algo, substitui o nome
+        nome = nomeInput  
 
-    if not nome:
-        nome = '<desconhecido>'
+    # Se não for passado um número de gols, mantém 0
+    golsInput = input('Quantidade de gols: ').strip()
+    if golsInput.isdigit():  # Verifica se foi digitado um número
+        gol = int(golsInput)
 
-    if not gols:
-        gols = 0
-    else:
-        gols = int(gols)
-
-    jogador['nome'] = nome
-    jogador['gols'] = gols
+    jogador = {'nome': nome, 'gols': gol}  
 
     return jogador
 
 
-resul = ficha(nome=True, gols=True)
+resul = ficha()
 
-print(f'O jogador {jogador["nome"]} fez {jogador["gols"]} gol(s) no campeonato.')
+print(f'O jogador {resul["nome"]} fez {resul["gols"]} gol(s) no campeonato.')
 print()

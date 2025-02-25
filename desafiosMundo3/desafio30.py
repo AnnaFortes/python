@@ -1,6 +1,6 @@
-from datetime import date
-
 def voto(ano):
+    from datetime import date #economiza memoria, pois a biblioteca só existe dentro da função
+
     anoAtual = date.today().year
     idade = anoAtual - ano
 

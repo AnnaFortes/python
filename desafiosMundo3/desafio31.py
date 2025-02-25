@@ -1,4 +1,10 @@
 def fat(num=1, show=False):
+    """ 
+    -> Calcula o fatorial de um número
+    :param num: O número a ser calculado
+    :param show: (opcional), mostrar ou não a conta
+    :return: O valor fatorial de um número num
+    """
     f = 1
     if show:
         print(f'Calculando o fatorial de {num}!', end=' = ')
