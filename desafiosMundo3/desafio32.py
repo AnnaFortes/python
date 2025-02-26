@@ -1,6 +1,6 @@
 def ficha(nome='<desconhecido>', gol=0):
     """ 
-    Exibe a ficha de um jogador, incluindo nome e quantidade de gols.
+    Exibe a ficha de um jogador, nome e quantidade de gols.
 
     :param nome: Nome do jogador. Se não informado, será <desconhecido>.
     :param gol: Quantidade de gols. Se não informado, será 0.

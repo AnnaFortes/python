@@ -1,8 +1,8 @@
 def notas(situacao=False):
     """ 
-    Calcula estatísticas das notas de um aluno.
+    Calcula as notas de um aluno.
 
-    Esta função recebe múltiplas notas, calcula a quantidade total, a maior e a menor nota, além da média. Opcionalmente, pode indicar a situação do aluno com base na média.
+    Esta função recebe várias notas, calcula a quantidade total, a maior e a menor nota, além da média. Opcionalmente, pode indicar a situação do aluno com base na média.
 
     :param situacao: (opcional) Se True, adiciona a situação do aluno ('BOA', 'RAZOÁVEL' ou 'RUIM'). Se False, não exibe a situação. Padrão: False.
 
@@ -13,7 +13,6 @@ def notas(situacao=False):
         - 'media': média das notas
         - 'situacao' (opcional): classificação da média (aparece apenas se situacao=True)
     """
-
     alunos = {}
     tdsNotas = []
     soma = 0
