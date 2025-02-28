@@ -2,13 +2,13 @@ OLHAR A EXPLICAÇÃO ANTES DE COMEÇAR A FAZER
 
 1° ex das moedas: crie um nódulo chamado moeda.py que tenha as funções incorporadas, aumentar(), diminuir(), dobro() e metade()
 #faça tb um programa que importe esse modulo e usa algumas dessas funções. Aumentar e diminuir o preço é em porcentagem.
-OBS: programa principal terá somente os prints e a chamada das funções
+OBS: programa principal terá somente os prints e a chamada das funções... OK(FEITO)
 
-2° ex: adapte o ex anterior, criando uma função adicional chamada moeda() que consiga mostrar os valores como um valor monetario formatado, sem alterar o programa principal
+2° ex: adapte o ex anterior, criando uma função adicional chamada moeda() que consiga mostrar os valores como um valor monetario formatado, sem alterar o programa principal... OK(FEITO)
 
-3° modifique as funções para que elas aceitem um parametro a mais, informando se o valr retornado por elas vai ser u não formatado pela função moeda(), desenvolvida anteriormente. (parametros true ou false para formatação)
+3° modifique as funções para que elas aceitem um parametro a mais, informando se o valor retornado por elas vai ser ou não formatado pela função moeda(), desenvolvida anteriormente. (parametros true ou false para formatação) OK(FEITO)
 
-4° adicione ao módulo moeda.py criada anteriormente, uma função chamada resumo(), que mostre na tela algumas informações geradas pelas funções que já temos no módulo criado até aqui
+4° adicione ao módulo moeda.py criada anteriormente, uma função chamada resumo(), que mostre na tela algumas informações geradas pelas funções que já temos no módulo criado até aqui...OK(FEITO)
 
 6° crie um pacote chamado utilidadesCeV que tenha dois módulos internos chamados moeda e dado. 
 Transfira todas as funções utilizadas nos desafios anteriores para o primeiro pacote e mantenha tudo funcionando
