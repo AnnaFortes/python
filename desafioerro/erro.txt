@@ -1,0 +1,6 @@
+1° desafio: Reescreva a função leiaInt(), incluindo agora a possibilidade da digitação de um número de tipo invalido. Aproveite e crie tb uma função chamada leiaFloat() com a mesma funcionalidade.
+
+2° desafio: Crie um código que teste se o site Pudim está acessivel pelo computador do usado.
+
+3° desafio: Crie um pequeno sistema modularizado que permita cadastrar pessoas pelo seu nome e idade em um arquivo de texto simples.
+O sistema só vai ter 2 opções: cadastrar uma nova pessoa e listar todas as pessoas cadastradas
